@@ -11,7 +11,8 @@ title: Home
     <p style="margin: 5px 0 0 0; font-size: 0.95em;">📍 Pordenone, Italy (Available for relocation)</p>
     <p style="margin: 8px 0 0 0;">
       📫 <a href="mailto:serafin.jacopo99@gmail.com">serafin.jacopo99@gmail.com</a> | 
-      🔗 <a href="https://www.linkedin.com/in/jacopo-serafin-ba1720263" target="_blank">LinkedIn</a> | 
+      🔗 <a href="https://www.linkedin.com/in/jacopo-serafin-ba1720263" target="_blank">LinkedIn</a> |
+      🔗 <a href="https://github.com/jacopoSera" target="_blank">GitHub</a> |
       📄 <a href="./CV_English_2026.pdf" target="_blank">CV (PDF)</a>
     </p>
   </div>
@@ -20,7 +21,9 @@ title: Home
 ---
 
 ## 👨‍💻 About Me
-*WIP. Information will be added soon!*
+I'm a firmware / embedded software engineer working primarly with STM32 and ESP32 microcontrollers.
+Currently I'm working in the HVAC, building automation industry and on some interesting personal projects.
+Really passionate about electronics, technology, sports and adventures!
 
 ---
 
@@ -42,22 +45,44 @@ title: Home
 
 ## 💼 Work Experience
 
+### **Freelance Firmware Developer**
+*March 2026 - Present*
+
+Firmware development for building automation appliances.<br>
+In detail, home management devices with a touch-screen display based on ESP32 microcontrollers.
+
 ### **Firmware Developer** | RDZ S.p.A. - Caleffi Group
 *May 2024 – Present* 
 
-*WIP. Information will be added soon!*
+* RTOS and bare-metal firmware development in C for STM32 microcontrollers (ARM Cortex M0, M3, M4), spacing between low-level register programming to higher-level FSM development;
+* Firmware debug using SWD and serial print in HIL environment;
+* Firmware versioning and releases maintenance with CI/CD (Git, Jira, Bitbucket);
+* Modbus RTU and CAN Open maintenance, making products communicating correctly;
+* Firmware documentation (requirements, code implementation leveraging Doxygen and PlantUML);
+* Python scripting for the development of auxiliary tools used to handle the various firmwares (real-time temperature diagnostic, binary flasher);
+* Hands-on laboratory equipment to debug and verify hardware prototypes
 
 ### **Hardware Designer** | UniUD E-Racing Team
 *Mar. 2023 – Mar. 2024* 
 
-*WIP. Information will be added soon!*
+Regarding the HV recharge system of an electric vehicle, my tasks were:
+* Schematic and PCB design
+* Cable harnessing
+* Electric / Electronic measurement for verification and validation
 
 ---
 
 ## 🚀 Personal Projects
 
-### 1. Indoor Farming Monitor
-*WIP. Information will be added soon!*
+### 1. IoT Indoor Farm Supervisor
+* **Description:** IoT supervisor that monitors and operates on an indoor farm. The device acquires data from sensors and sends commands via Modbus RTU. Data is also presented on a touch-screen display (a terminal for an operator). The same capabilites are exported to the cloud via MQTT.
+* **Skills:**
+* LVGL
+* Modbus RTU (master)
+* MQTT
+* FreeRTOS
+
+*WIP. The project is not finished yet. Link to GitHub will be provided!*
 
 ### 2. Temperature, humidity and VOC monitor (Open AirQ Monitor)
 * **Description:** Desktop product that monitors indoor air parameters. It's USB-C powered, provides a well-looking TFT display and it's open source!<br> [Here](https://github.com/Summanuss/openairqmonitor) the link to the project.
@@ -76,7 +101,7 @@ IT and networks path to develop C/C++ software knowledge, to develop multi-task 
 
 ---
 
-## Certification
+## 📃 Certifications
 Look at my [LinkedIn](https://www.linkedin.com/in/jacopo-serafin-ba1720263/) profile for more information about it.
 
 ---
